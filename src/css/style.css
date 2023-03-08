@@ -2,14 +2,14 @@
 
 body {
   min-height: 100vh;
-  max-width: 1440px;
   background-color: var(--cor-botao);
-  margin: 5rem;
+  padding: 0 10rem;
 }
 
 .container {
   width: 100%;
   margin: 0 auto;
+  max-width: 1440px;
 }
 
 h2 {
@@ -28,9 +28,7 @@ h3 {
 
 main .hero .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15rem;
+  gap: 30.8rem;
 }
 
 main .hero .container .inicio {
@@ -40,7 +38,7 @@ main .hero .container .inicio {
 }
 
 main .hero .container .inicio p {
-  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
   width: 52rem;
   padding: 2.4rem 0 4.8rem 0;
 }
@@ -81,7 +79,6 @@ main .sobre .container {
 }
 
 main .sobre .container .img-sobre {
-  width: 50%;
   display: flex;
   justify-content: center;
 }
@@ -98,7 +95,7 @@ main .sobre .container .preparo {
 }
 
 main .sobre .container .preparo p {
-  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
   width: 50rem;
   padding: 2.4rem 0 4rem 0;
 }
@@ -106,7 +103,7 @@ main .sobre .container .preparo p {
 main .sobre .container .preparo a {
   border-bottom: 0.1rem solid var(--cor-titulo);
   font-weight: 500;
-  font-size: 2.4rem;
+  font-size: clamp(1.6rem, 2vw, 2.4rem);
   width: 39.2rem;
 }
 
@@ -159,8 +156,8 @@ main .populares .container .wrapper-populares .prato .descricao-prato {
 }
 
 main .populares .container .wrapper-populares .prato .descricao-prato p {
-  width: clamp(29rem, 4vw, 50rem);
-  font-size: clamp(2.4rem, 4vw, 1.6rem);
+  width: 24.9rem;
+  font-size: 1.6rem;
   padding: 1.6rem 0 3.2rem 0;
 }
 
@@ -185,16 +182,16 @@ main .coments .container .wrapper-coments {
 }
 
 main .coments .container .wrapper-coments .card-coments {
-  width: clamp(31.2rem, 4vw, 60.4rem);
-  height: clamp(24rem, 4vw, 39rem);
+  width: 60.4rem;
+  height: 39rem;
   background-color: var(--cor-bc);
   border-radius: 1.6rem;
   padding: 5rem;
 }
 
 main .coments .container .wrapper-coments .card-coments img {
-  width: clamp(6rem, 4vw, 12rem);
-  height: clamp(6rem, 4vw, 12rem);
+  width: 12rem;
+  height: 12rem;
   padding-bottom: 2.4rem;
 }
 
@@ -217,8 +214,8 @@ main .localizacao .container {
 }
 
 main .localizacao .container img {
-  width: clamp(31.2rem, 4vw, 122.8rem);
-  height: clamp(24.2rem, 4vw, 50rem);
+  width: 122.8rem;
+  height: 50rem;
   margin-top: 4.8rem;
 }
 
@@ -230,8 +227,8 @@ main .localizacao .container form {
 }
 
 main .localizacao .container form input {
-  width: clamp(26.2rem, 4vw, 63rem);
-  height: clamp(4rem, 4vw, 7rem);
+  width: 50%;
+  height: 7rem;
   border-radius: 1rem 0 0 1rem;
   border: 0.1rem solid var(--cor-titulo);
 }
@@ -242,8 +239,8 @@ main .localizacao .container form input::placeholder {
 
 main .localizacao .container form label {
   background-color: var(--cor-nome);
-  width: clamp(5.1rem, 4vw, 18.3rem);
-  height: clamp(4rem, 4vw, 7rem);
+  width: 25%;
+  height: 7rem;
   border-radius: 0 1rem 1rem 0;
   color: var(--cor-botao);
   font-size: clamp(1rem, 2vw, 2.4rem);
