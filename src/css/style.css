@@ -81,6 +81,7 @@ main .sobre .container {
 main .sobre .container .img-sobre {
   display: flex;
   justify-content: center;
+  
 }
 
 main .sobre .container .img-sobre img {
