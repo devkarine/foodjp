@@ -22,9 +22,13 @@ Projeto realizado com o objetivo de criar uma página de cardápio de um estabel
 
 
 ## 🖱️ A página
-<img src="src/images/desktop-mobile.gif" alt="Gif exibindo o desktop e versão mobile do site">    
+<img src=" src/img/desktop.gif" alt="Gif exibindo a versão desktop do site">  
+  
 
-> Acesse a página online: <a target= "_blank"></a>
+
+<a href = "https://devkarine.github.io/foodjp/" target= "_blank">> Acesse a página online</a>
+
+
 
 
 ## 👩‍💻 Dev
